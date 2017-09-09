@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-left: 0;
+    align-items: center;
+}
+
+/deep/ li {
+    padding: 1rem;
+    list-style: none;
+}
+
+*:first-of-type {
+    padding-left: 0;
+}
+
+*:last-of-type {
+    padding-right: 0;
+}
+
+/deep/ a {
+    color: #268bd2;
+}
+
+/deep/ a:hover {
+    color: #268bd2;
+}
+
+/deep/ a:hover::after {
+    color: #268bd2;
+}

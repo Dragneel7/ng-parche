@@ -1,0 +1,15 @@
+<div class="ui relaxed ordered list">
+  <div *ngFor="let application of applications" class="item">
+    <div class="content">
+      <a href="#">{{ application.name }}</a>
+        <div class="extra">
+        <p>
+          Developed by <em>{{ application.developers }}</em>
+          and designed by <em>{{ application.designers }}</em></p>
+      </div>
+      <div class="description">
+        <p>{{ application.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

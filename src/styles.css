@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+@keyframes blink-invisible {
+    0% {
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+@keyframes blink-visible {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+html, body, app-root {
+    height: 100%;
+}
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    background-color: #002b36;
+}
+
+h3 {
+    color: #2aa198;
+    font-weight: 400;
+    font-family: "Source Code Pro", monospace;
+}
+
+a {
+    font-family: "Source Code Pro", monospace;
+}
+
+a::after {
+    color: transparent;
+    content: "_";
+}
+
+a:hover::after {
+    animation-name: blink-invisible;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+p {
+    color: #839496;
+}
+
+em {
+    color: #93a1a1;
+    font-weight: 700;
+}

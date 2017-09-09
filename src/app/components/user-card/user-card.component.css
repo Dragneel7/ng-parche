@@ -1,0 +1,10 @@
+li {
+    padding: 1rem 0 1rem 2rem;
+}
+
+.ui.button {
+    background: transparent;
+    font-family: "Source Code Pro", monospace;
+    color: #268bd2;
+    font-weight: 400;
+}

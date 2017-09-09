@@ -1,0 +1,11 @@
+<li *ngIf="user">
+  <div class="ui animated left basic blue compact button">
+    <div class="visible content">{{ user.name }}</div>
+    <div class="hidden content"><i class="sign out icon"></i>Sign out</div>
+  </div>
+</li>
+<li *ngIf="!user">
+  <div class="ui basic blue compact button">
+    <div class="content"><i class="sign in icon"></i>Sign in</div>
+  </div>
+</li>

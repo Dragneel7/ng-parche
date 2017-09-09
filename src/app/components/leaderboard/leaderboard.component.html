@@ -1,0 +1,14 @@
+<h3>Top bug reporters</h3>
+<app-user-list
+    [users]="topReporters"
+    [property]="'bugsReported'"
+    [preContent]="'Reported '"
+    [postContent]="' bugs'">
+</app-user-list>
+<h3>Top bug fixers</h3>
+<app-user-list
+    [users]="topFixers"
+    [property]="'bugsFixed'"
+    [preContent]="'Fixed '"
+    [postContent]="' bugs'">
+</app-user-list>

@@ -1,0 +1,67 @@
+header {
+    flex-grow: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    flex-grow: 0;
+}
+
+header .ui.container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+header .ui.container h1 {
+    display: inline-block;
+    margin: 0;
+    flex-grow: 1;
+}
+
+header .ui.container h1 a {
+    color: #2aa198;
+    font-weight: 400;
+    font-family: "Source Code Pro", monospace;
+}
+
+header .ui.container h1 a:hover::after {
+    color: #2aa198;
+}
+
+header .ui.container .ui.header .sub.header {
+    color: #859900;
+}
+
+header .ui.container .ui.header .sub.header em {
+    font-weight: 400;
+}
+
+header .ui.container app-nav {
+    display: inline-block;
+    margin: 0;
+    flex-grow: 0;
+}
+
+main .ui.container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer .ui.container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer .ui.container a {
+    color: #586e75;
+}
+
+footer .ui.container a:hover::after {
+    color: #586e75;
+}
