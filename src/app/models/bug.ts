@@ -1,11 +1,11 @@
-enum Aspect {
+export enum Aspect {
   FRONTEND,
   BACKEND,
   BOTH,
   UNKNOWN
 }
 
-enum Severity {
+export enum Severity {
   CRIPPLING,
   IMPORTANT,
   NEUTRAL,
@@ -13,7 +13,7 @@ enum Severity {
   ENHANCEMENT
 }
 
-enum Progress {
+export enum Progress {
   REPORTED,
   UNDER_CONSIDERATION,
   UNDER_DEVELOPMENT,
