@@ -20,13 +20,13 @@ ul {
 }
 
 /deep/ a {
-    color: #268bd2;
+    color: #f8d16c;
 }
 
 /deep/ a:hover {
-    color: #268bd2;
+    color: #f8d16c;
 }
 
 /deep/ a:hover::after {
-    color: #268bd2;
+    color: #f8d16c;
 }

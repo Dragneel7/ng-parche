@@ -25,21 +25,22 @@ header .ui.container h1 {
 }
 
 header .ui.container h1 a {
-    color: #2aa198;
+    color: #f8d16c;
     font-weight: 400;
-    font-family: "Source Code Pro", monospace;
+    font-size: 1.5em;
 }
 
 header .ui.container h1 a:hover::after {
-    color: #2aa198;
+    color: #f8d16c;
 }
 
 header .ui.container .ui.header .sub.header {
-    color: #859900;
+    color: #ffffff;
 }
 
 header .ui.container .ui.header .sub.header em {
     font-weight: 400;
+    color: #ffffff;
 }
 
 header .ui.container app-nav {
@@ -59,9 +60,9 @@ footer .ui.container {
 }
 
 footer .ui.container a {
-    color: #586e75;
+    color: #c3c3c3;
 }
 
 footer .ui.container a:hover::after {
-    color: #586e75;
+    color: #c3c3c3;
 }

@@ -2,7 +2,7 @@
   <div *ngFor="let user of users" class="item">
     <img class="ui avatar image" src="https://www.gravatar.com/avatar/{{ user.emailAddressHash }}">
     <div class="content">
-      <a href="#">{{ user.name }}</a>
+      <h4><a href="#">{{ user.name }}</a></h4>
       <div class="description">
         <p>{{ preContent }}{{ user[property] }}{{ postContent }}</p>
       </div>

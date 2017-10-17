@@ -1,17 +1,16 @@
 .ui.relaxed.list .item::before {
-    color: #b58900;
-    font-family: "Source Code Pro", monospace;
+    color: #ffffff;
     font-weight: 700;
 }
 
 .ui.relaxed.list .item .content a {
-    color: #b58900;
+    color: #ffffff;
 }
 
 .ui.relaxed.list .item .content a:hover {
-    color: #b58900;
+    color: #ffffff;
 }
 
 .ui.relaxed.list .item .content a:hover::after {
-    color: #b58900;
+    color: #ffffff;
 }

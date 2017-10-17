@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: normal;
+    font-style: normal;
+    src: url("assets/HelveticaNeue-55.ttf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: normal;
+    font-style: italic;
+    src: url("assets/HelveticaNeue-56.ttf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    font-style: normal;
+    src: url("assets/HelveticaNeue-65.ttf");
+}
+
+@font-face {
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    font-style: italic;
+    src: url("assets/HelveticaNeue-66.ttf");
+}
+
 @keyframes blink-invisible {
     0% {
         opacity: 0.0;
@@ -22,24 +50,27 @@
     }
 }
 
-html, body, app-root {
+*:not(.icon) {
+    font-family: "HelveticaNeue", serif !important;
+}
+
+html {
     height: 100%;
+}
+
+body, app-root {
+    min-height: 100%;
 }
 
 app-root {
     display: flex;
     flex-direction: column;
-    background-color: #002b36;
+    background-color: #293b52;
 }
 
 h3 {
-    color: #2aa198;
+    color: #f8d16c;
     font-weight: 400;
-    font-family: "Source Code Pro", monospace;
-}
-
-a {
-    font-family: "Source Code Pro", monospace;
 }
 
 a::after {
@@ -54,10 +85,10 @@ a:hover::after {
 }
 
 p {
-    color: #839496;
+    color: #c3c3c3;
 }
 
 em {
-    color: #93a1a1;
+    color: #eeeeee;
     font-weight: 700;
 }
