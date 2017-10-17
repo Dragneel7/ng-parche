@@ -1,0 +1,44 @@
+<div class="field">
+  <label for="title">Title</label>
+  <div class="control">
+    <input type="text" id="title" [formControl]="title">
+  </div>
+</div>
+<div class="field">
+  <label for="description">Description</label>
+  <div class="control">
+    <textarea id="description" rows="4" [formControl]="description"></textarea>
+  </div>
+</div>
+<div class="field">
+  <label for="stepsToReproduce">Steps to reproduce</label>
+  <div class="control">
+    <textarea id="stepsToReproduce" rows="4" [formControl]="stepsToReproduce"></textarea>
+  </div>
+</div>
+<div class="field">
+  <label for="additionalInformation">Additional information</label>
+  <div class="control">
+    <textarea id="additionalInformation" rows="4" [formControl]="additionalInformation"></textarea>
+  </div>
+</div>
+<div class="field">
+  <label>Aspect</label>
+  <div class="control">
+    <app-choice-buttons [options]="aspectOptions"></app-choice-buttons>
+  </div>
+</div>
+<div class="field">
+  <label>Severity</label>
+  <div class="control">
+    <app-choice-buttons [options]="severityOptions"></app-choice-buttons>
+  </div>
+</div>
+<div class="field">
+  <label>&nbsp;</label>
+  <div class="control">
+    <div class="ui button" (click)="onSubmit()">
+      <i class="ui checkmark icon"></i>Submit
+    </div>
+  </div>
+</div>

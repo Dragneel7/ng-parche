@@ -1,0 +1,55 @@
+.field {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.control {
+    width: 50rem;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.75rem 0 0.75rem 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    display: table-cell;
+    border: 1px solid #586576;
+    background: #586576;
+    color: #f8d16c;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    display: table-cell;
+    border: 1px solid #c3c3c3;
+    background: none;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.ui.button {
+    box-shadow: 0 0 0 1px #586576 inset !important;
+    color: #f8d16c !important;
+    background: transparent;
+    font-weight: 400;
+}
+
+.ui.button:hover {
+    background: #586576;
+}
