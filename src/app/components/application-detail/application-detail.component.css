@@ -1,0 +1,20 @@
+.ui.basic.collapsing.table {
+    border: none;
+    border-left: 1px solid #f8d16c;
+    border-radius: 0;
+}
+
+.ui.basic.collapsing.table tbody tr td:first-of-type {
+    color: #ffffff;
+}
+
+.ui.button {
+    box-shadow: 0 0 0 1px #586576 inset !important;
+    color: #f8d16c !important;
+    background: transparent;
+    font-weight: 400;
+}
+
+.ui.button:hover {
+    background: #586576;
+}
