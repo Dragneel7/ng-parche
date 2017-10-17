@@ -1,8 +1,8 @@
 <div class="ui relaxed ordered list">
   <div *ngFor="let application of applications" class="item">
     <div class="content">
-      <h4><a href="#">{{ application.name }}</a></h4>
-        <div class="extra">
+      <h4><a href="#" (click)="applicationSelected(application)">{{ application.name }}</a></h4>
+      <div class="extra">
         <p>
           Developed by <em>{{ application.developers }}</em>
           and designed by <em>{{ application.designers }}</em></p>
