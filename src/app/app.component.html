@@ -9,10 +9,13 @@
 </header>
 <main>
   <div class="ui container">
-    <div class="ui grid">
-      <div class="twelve wide column"><app-testing-applications></app-testing-applications></div>
-      <div class="four wide column"><app-leaderboard></app-leaderboard></div>
-    </div>
+    <app-home
+        *ngIf="!selectedApplication">
+    </app-home>
+    <app-application
+        *ngIf="selectedApplication"
+        [application]="selectedApplication">
+    </app-application>
   </div>
 </main>
 <footer>
