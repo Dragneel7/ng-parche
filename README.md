@@ -9,3 +9,7 @@ Parche uses the Java framework, _Spring_, on the backend and the JavaScript fram
 Welcome to rapid, _error-prone_ development. You'll enjoy it.
 
 _Note:_ This repository contains the frontend code of Parche.
+
+_Note:_ This project is probably dead like **LOSS** but unline **LOSS** it won't be comming back.
+
+This is so sad, **Alexa Play Despacito** 
